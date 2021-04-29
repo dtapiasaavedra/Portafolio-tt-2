@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+
+/* Inicio Tamaños Responsive*/
+
+@media (min-width: 576px) {
+
+
+
+
+
+/* Prueba 01 */
+
+.container-barra {
+display: flex;
+justify-content:flex-end;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+
+}
+
+.container-barra {
+display:flex;
+justify-content:flex-end;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+padding-top:8px;
+padding-bottom:8px;
+border-bottom-style: solid;
+border-bottom-color: grey;
+}
+
+.container-barra > div {
+  padding:20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* Prueba 01 */
+
+*/
+
+
+
+
+
+
+
+
+.grid-container {
+  grid-template-columns: auto;
+
+}
+ }
+
+
+@media (min-width: 768px)  {}
+
+
+
+
+@media (min-width: 992px) {
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.grid-item {
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 100px;
+}
+
+#titulogrande {
+  font-size: 4em;
+  line-height: 2em;
+}
+
+.container0 {
+
+display: grid;
+grid-template-columns: 20% 80%;
+}
+
+
+.grid-container2 {
+display: grid;
+grid-template-columns: 30% 70%;
+
+}
+
+.grid-container3 {
+display: grid;
+grid-template-columns: auto auto auto;  
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+
+}
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
+
+
+/*Término Tamaños Responsive*/
+
+
+
+
+
+header{
+   /*  background-color: rgb(228, 79, 128);*/ 
+}
+
+.centrado{
+    text-align:center;
+
+
+}
+
+.imagenresponsivo {
+  width: 100%;
+  height: auto;
+}
+
+/*
+#quienes {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 3%;
+}
+*/
+  .centrado1    {
+  
+  text-align:center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 3%;
+}
+
+
+body{
+  /* background-color: rgb(128, 139, 240);*/ 
+  /*  color: #fff;*/
+    font-size: 16px;
+    line-height: 1.3em; 
+    font-family: "Alegreya Sans";
+    
+}
+
+#integrantes{
+    font-size: 15px;
+    /*background-color: rgb(41,42,43); */
+    padding-bottom: 10px;
+}
+
+#conocenos {
+  color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: center
+  }
+  
+  li {
+   /* background-color: white; */
+    border: none px solid;
+    display: inline;
+    margin-right: 10px;
+    border-radius:20px
+  }
+  
+  .enlaceboton {
+ /*    color: rgb(255, 255, 255);*/
+    padding: 17px;
+    text-decoration: none;
+    border-radius:40px
+    margin:15px;
+  }
+/*  
+  a.enlaceboton {
+    background-color: rgb(255, 255, 255);
+    color: #D7C8B6;
+    border-radius:20px
+
+
+
+/*barrar navegación*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+ /* background-color: #f1f1f1; */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: white;
+  padding-left: 20px;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: right;
+  display: block;
+  /*color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.enlaceboton a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+  
+/*
+  /* Create three equal columns that floats next to each other 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  */
+
+
+
+  #conocenos {
+padding-top: 25px;
+padding-bottom: 25px: 
+  }
+
+ #quienes1 {
+background-color: rgb(220,220,220);
+  }
+  #quienes2 {
+background-color: rgb(230,230,230);
+  }
+  #quienes3 {
+background-color: rgb(240,240,240);
+  }
